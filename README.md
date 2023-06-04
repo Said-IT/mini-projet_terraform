@@ -65,8 +65,8 @@ Nous accueillons avec enthousiasme toute contribution à notre projet ! Voici co
 1. cloner le dépot 
 
 ```bash
-git clone https://github.com/votre-utilisateur/provisionnement-automatise-aws-terraform.git
-cd provisionnement-automatise-aws-terraform
+git clone https://github.com/Said-IT/mini-projet_terraform.git
+cd mini-projet_terraform
 ```
 
 2. Ajouter de nouvelles fonctionnalités ou améliorer les fonctionnalités existantes :
