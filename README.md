@@ -1,7 +1,7 @@
 # Mini projet terraform
 
 
-#Préquis
+## Préquis
 
 Ce projet est réalisé sous Debian, mais il est possible d'apporter de légères modifications si vous utilisez un système d'exploitation différent.
 
