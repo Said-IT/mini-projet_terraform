@@ -4,7 +4,7 @@ Notre projet vise à simplifier et automatiser le provisionnement d'infrastructu
 
 ![terrafrom_image](https://hashicorp.github.io/field-workshops-terraform/slides/aws/terraform-oss/images/tf_aws.png)
 
-## Préquis
+## Prérequis
 
 Ce projet est réalisé sous Debian, mais il est possible d'apporter de légères modifications si vous utilisez un système d'exploitation différent.
 
