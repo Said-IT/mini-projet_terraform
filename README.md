@@ -21,4 +21,72 @@ sudo mv terraform /usr/local/bin/
 terraform version
 ```
 
+## Utilisation
 
+Tout d’abord, il faut bien préciser votre région, access_key et secret_key. Vous pouvez trouvez ça dans le paramètre de votre compte AWS.
+
+```hcl
+  region = "us-east-1"
+  access_key = "Votre access key"
+  secret_key = "Votre secret key"
+```
+
+Ensuiste, la clé privé votre_private_key.pem (avec une autorisation 400), et faire la modification suivante : 
+```hcl
+  keyname = "votre_private_key"
+```
+Puis dans la connexion ssh  :
+```hcl
+  private_key = file("chemin_de_votre_fichier/votre_private_key.pem"
+```
+
+## Exécution de commande
+
+Une fois adapté votre code, il faut exécuter ces commandes pour déployer vos ressources 
+
+```bash
+  # Pour initialiser 
+  terraform init
+  
+  # Pour valider votre configuration au niveau de code 
+  terraform validate
+  
+  #Pour voir le plan d'exécution
+  terraform plan
+  
+  #Si d'après le plan, tout est bien , appliquer votre configuration
+  terraform apply
+```
+
+## Contribution
+
+Nous accueillons avec enthousiasme toute contribution à notre projet ! Voici comment vous pouvez contribue: 
+
+1. cloner le dépot 
+
+```bash
+git clone https://github.com/votre-utilisateur/provisionnement-automatise-aws-terraform.git
+cd provisionnement-automatise-aws-terraform
+```
+
+2. Ajouter de nouvelles fonctionnalités ou améliorer les fonctionnalités existantes :
+
+```bash
+git checkout -b nom-de-ma-branche
+```
+
+3. Soumettre une demande de pull
+
+- Une fois que vous avez terminé vos modifications, soumettez une demande de pull (PR) sur GitHub.
+- Décrivez clairement les modifications apportées, en mettant en évidence les fonctionnalités - ajoutées ou améliorées.
+- Assurez-vous que votre PR est cohérente avec les conventions de codage du projet.
+- Les mainteneurs du projet examineront votre PR, fourniront des commentaires et fusionneront votre contribution si elle est acceptée.
+
+
+4. Signaler des problèmes ou des suggestions d'amélioration
+
+- Si vous rencontrez des problèmes lors de l'utilisation du projet ou si vous avez des suggestions d'amélioration, veuillez les signaler en créant un problème sur GitHub.
+- Décrivez le problème ou la suggestion de manière claire et détaillée.
+- Les mainteneurs du projet examineront votre problème ou votre suggestion et y répondront dans les plus brefs délais.
+
+Nous apprécions votre contribution et votre participation active à notre projet. Votre expertise et votre engagement contribueront à améliorer l'automatisation du provisionnement d'infrastructures AWS avec Terraform.
