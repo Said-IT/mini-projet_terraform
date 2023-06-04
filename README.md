@@ -1,9 +1,9 @@
 # Mini projet terraform
 
 
-##Préquis
+#Préquis
 
-Ce projet est fait sous debian, il est possible de faire des petits changements si votre systeme d'exploitation differe.
+Ce projet est réalisé sous Debian, mais il est possible d'apporter de légères modifications si vous utilisez un système d'exploitation différent.
 
 ```bash
 #Pour télécharger la version 0.15.4, vous pouvez utiliser la commande suivante 
