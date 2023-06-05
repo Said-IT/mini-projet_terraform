@@ -48,7 +48,7 @@ Le fichier **terraform.state** est le fichier principal qui contient toutes les 
 
 Le fichier **terraform.state.backup** est une sauvegarde du fichier terraform.state précédent. Il est automatiquement créé par Terraform lorsqu'il met à jour l'état de votre infrastructure. Cette sauvegarde est utile en cas de problème avec le fichier principal, vous permettant de restaurer une version précédente de l'état de votre infrastructure.
 
-Ces fichiers sont crées automatiquement après exécution des commandes suivante.
+Ces fichiers sont crées automatiquement après exécution des commandes suivantes.
 
 ## Exécution des commandes
 
