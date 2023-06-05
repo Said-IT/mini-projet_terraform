@@ -44,9 +44,9 @@ Par conséquent, vous devez prendre en considération le chémin par défaut si 
 
 ![structure_projet](./structure_projet.png)
 
-Le fichier --terraform.state-- est le fichier principal qui contient toutes les informations sur votre infrastructure actuelle. Il répertorie les ressources que vous avez créées, leurs configurations, leurs dépendances et leurs états. Ce fichier est généralement stocké dans un système de contrôle de version, tel que Git, pour permettre le travail collaboratif et le suivi des modifications.
+Le fichier <u>terraform.state</u> est le fichier principal qui contient toutes les informations sur votre infrastructure actuelle. Il répertorie les ressources que vous avez créées, leurs configurations, leurs dépendances et leurs états. Ce fichier est généralement stocké dans un système de contrôle de version, tel que Git, pour permettre le travail collaboratif et le suivi des modifications.
 
-Le fichier --terraform.state.backup-- est une sauvegarde du fichier terraform.state précédent. Il est automatiquement créé par Terraform lorsqu'il met à jour l'état de votre infrastructure. Cette sauvegarde est utile en cas de problème avec le fichier principal, vous permettant de restaurer une version précédente de l'état de votre infrastructure.
+Le fichier <u>terraform.state.backup</u> est une sauvegarde du fichier terraform.state précédent. Il est automatiquement créé par Terraform lorsqu'il met à jour l'état de votre infrastructure. Cette sauvegarde est utile en cas de problème avec le fichier principal, vous permettant de restaurer une version précédente de l'état de votre infrastructure.
 
 Ces fichiers sont crées automatiquement après exécution des commandes suivante.
 
