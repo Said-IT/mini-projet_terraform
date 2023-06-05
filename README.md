@@ -49,7 +49,7 @@ Le fichier terraform.state.backup est une sauvegarde du fichier terraform.state 
 
 Ces fichiers sont crées automatiquement après exécution des commandes suivante.
 
-## Exécution de commande
+## Exécution des commandes
 
 Une fois adapté votre code, il faut exécuter ces commandes pour déployer vos ressources 
 
