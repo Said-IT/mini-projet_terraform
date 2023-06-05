@@ -40,7 +40,14 @@ Puis dans la connexion ssh  :
   private_key = file("chemin_de_votre_fichier/votre_private_key.pem"
 ```
 Par conséquent, vous devez prendre en considération le chémin par défaut si vous n'avez par changer le chemin :
+
 ![structure_projet](./structure_projet.png)
+
+Le fichier terraform.state est le fichier principal qui contient toutes les informations sur votre infrastructure actuelle. Il répertorie les ressources que vous avez créées, leurs configurations, leurs dépendances et leurs états. Ce fichier est généralement stocké dans un système de contrôle de version, tel que Git, pour permettre le travail collaboratif et le suivi des modifications.
+
+Le fichier terraform.state.backup est une sauvegarde du fichier terraform.state précédent. Il est automatiquement créé par Terraform lorsqu'il met à jour l'état de votre infrastructure. Cette sauvegarde est utile en cas de problème avec le fichier principal, vous permettant de restaurer une version précédente de l'état de votre infrastructure.
+
+Ces fichiers sont crées automatiquement après exécution des commandes suivante.
 
 ## Exécution de commande
 
@@ -58,6 +65,9 @@ Une fois adapté votre code, il faut exécuter ces commandes pour déployer vos 
   
   #Si d'après le plan, tout est bien , appliquer votre configuration
   terraform apply
+  
+  #Si vous avez fini d'utiliser les ressources, vous pouvez détruire les ressources
+  terraform destroy
 ```
 
 ## Contribution
