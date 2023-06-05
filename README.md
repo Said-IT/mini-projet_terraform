@@ -39,6 +39,8 @@ Puis dans la connexion ssh  :
 ```hcl
   private_key = file("chemin_de_votre_fichier/votre_private_key.pem"
 ```
+Par conséquent, vous devez prendre en considération le chémin par défaut si vous n'avez par changer le chemin :
+![structure_projet](./structure_projet.png)
 
 ## Exécution de commande
 
