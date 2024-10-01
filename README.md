@@ -2,7 +2,6 @@
 
 Notre projet vise à simplifier et automatiser le provisionnement d'infrastructures AWS en utilisant Terraform, un outil open-source de gestion de l'infrastructure en tant que code. En combinant les avantages d'AWS et la puissance de Terraform, notre objectif est de permettre aux équipes de déploiement et d'exploitation d'infrastructures de créer rapidement et de manière cohérente des ressources clés, telles que des instances EC2, des volumes EBS, des adresses IP publiques et des groupes de sécurité.
 
-![terrafrom_image](https://hashicorp.github.io/field-workshops-terraform/slides/aws/terraform-oss/images/tf_aws.png)
 
 ## Prérequis
 
